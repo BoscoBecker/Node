@@ -19,7 +19,9 @@ app.disable('x-powered-by');
 var expiryDate = new Date( Date.now() + 60 * 60 * 1000 ); 
 app.use(cookieParser({
   name: 'session',
-  keys: ['Ym9zY29iZWNrZXI=', 'Ym9zY29iZWNrZXIyMzEw'], // just Test, i am use base64
+  keys: ['AAAAB3NzaC1yc2EAAAADAQABAAAAgQDMAuFzWX/RbxG7xnlyHLB4YZxCMk3Gbh4SP/FddubDQ216L9oBhpx6qV4PxeajZ1O+1ypGL2hLJtxU2iVG6A6Tai7Nu6/fBHtUdBuaaQj/LB7jUHEn456toLBIGBeH3YiSa40Clz/eB74ohb3fqckdGBw3t4Cx4rxnKxd0O2VDZQ==',
+         'AAAAB3NzaC1yc2EAAAADAQABAAAAgQC7HKQUFUVtVeyMPmArXVFAU1j0UqMkoXOGoiDXytmQEB3s6g+d5rWL/hdKzRozQai2WORbgn5nY80KalLGf5e9qtMDhXwMD/VIZo2/jb/PjuLfjtf1yF0vgfcRu5rHviVJ95niU34OJJWYeyHgizbCbIfoliGFEaHN9E9fGQZ1Iw=='
+        ],
   cookie: { secure: true,
             httpOnly: true,
             domain: '127.0.0.1',
