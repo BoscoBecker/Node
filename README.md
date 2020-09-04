@@ -1,7 +1,7 @@
 # Learning node server
   Learning about Node with security
   
-  ![Screenshot](Image/printServer.png)
+  ![Screenshot](image/printServer.png)
  
 # CORS
 Cross-origin resource sharing (CORS) allows AJAX requests to skip the Same-origin policy and access resources from remote hosts.
