@@ -14,6 +14,7 @@ This type of header is known as ServerTokens / ServerSignature, it reveals serve
 Helmet can help protect your application from some well-known web vulnerabilities by configuring HTTP headers accordingly.
 
 Helmet is actually just a collection of nine smaller middleware functions that configure security-related HTTP headers:
+
 X-Content-Type-Options: nosniff
 X-DNS-Prefetch-Control: off
 X-Download-Options: noopen
