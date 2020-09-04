@@ -1,5 +1,5 @@
 # Learning node server
-  Learning about Node with security
+  Learning Node with security
   
   ![Screenshot](image/printServer.png)
  
