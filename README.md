@@ -23,4 +23,4 @@ X-Permitted-Cross-Domain-Policies: none
 X-XSS-Protection: 0
 
 
-Make With ❤  - @boscobecker
+Make With ❤ @boscobecker
